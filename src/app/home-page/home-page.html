@@ -1,0 +1,84 @@
+<body>
+    <!-- Bannière grise en haut -->
+    <div class="header-banner">
+        <div class="header-title">We're still here for you</div>
+        <p>The AT&T Community Forums have closed. Try these digital resources to find what you're looking for.</p>
+    </div>
+    
+    <!-- Section principale -->
+    <div class="support-section">
+        <h2 class="support-title">How can we help you today?</h2>
+        <p>We've put together a list of places where you can find most anything. Or, you can use search to find something specific.</p>
+        
+        <!-- Grille de 6 cartes -->
+        <div class="support-grid">
+            <div class="support-card"> 
+                <div class="support-icon">
+                    <img [src]="getIconPath('loop')" alt="Icon">
+                </div>
+                <a href="#">Explore AT&T support</a>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">
+                    <img [src]="getIconPath('phone')" alt="Icon">
+                </div>
+                <a href="#">Shop phones & devices</a>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">
+                    <img [src]="getIconPath('person')" alt="Icon">
+                </div>
+                <a href="#">Manage your account</a>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">
+                    <img [src]="getIconPath('phone_support')" alt="Icon">
+                </div>
+                <a href="#">Get device help</a>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">
+                    <img [src]="getIconPath('analisys')" alt="Icon">
+                </div>
+                <a href="#">Explore AT&T Business support</a>
+            </div>
+            <div class="support-card">
+                <div class="support-icon">
+                    <img [src]="getIconPath('point_interogatif')" alt="Icon">
+                </div>
+                <a href="#">Find Small Business help</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sections d'applications côte à côte -->
+    <div class="app-container">
+        <!-- Première application -->
+        <div class="app-section">
+            <div class="app-title">
+                <div>Get the myAT&T app</div>
+            </div>
+            <p>Access all your account info in one place</p>
+            <ul class="feature-list">
+                <li>View and pay your bill</li>
+                <li>Make and confirm payments</li>
+                <li>Shop and upgrade your device</li>
+            </ul>
+            <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+        
+        <!-- Deuxième application -->
+        <div class="app-section">
+            <div class="app-title">
+                <div>Use the Smart Home Manager app</div>
+            </div>
+            <p>Manage your Wi-Fi network and your devices—anytime, anywhere. You can:</p>
+            <ul class="feature-list">
+                <li>Manage screens time and user access</li>
+                <li>Track data usage by device</li>
+                <li>Troubleshoot your service</li>
+            </ul>
+            <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+    </div>
+</body>

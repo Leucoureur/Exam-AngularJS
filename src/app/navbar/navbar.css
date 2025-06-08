@@ -1,0 +1,190 @@
+        /* Reset et styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        /* Navbar principale */
+        .navbar {
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            height: 60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* Conteneur gauche (logo + menu) */
+        .left-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        /* Logo et nom de l'entreprise */
+        .brand {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+        
+        .brand-name {
+            margin-left: 8px;
+            color:   #333;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+
+        .brand-name img {
+            margin-bottom: 7px;
+            width: 100px;
+            height: 25px;
+        }
+        
+        /* Menu principal */
+        .nav-menu {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-item {
+            margin: 0 15px;
+            position: relative;
+        }
+        
+        .nav-link {
+            color:  #333;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            padding: 5px 0;
+            transition: color 0.2s;
+            letter-spacing: 0.3px;
+        }
+        
+        .nav-link:hover {
+            color:   #333;
+        }
+        
+        /* Conteneur droit (search + utils) */
+        .right-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        /* Barre de recherche */
+        .search-bar {
+            display: flex;
+            align-items: center;
+            transition: border-color 0.2s;
+            border: 1px solid #969696;
+            border-radius: 4px;
+            padding: 3px 15px;
+        }
+
+        .search-bar img {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+        
+        .search-input {
+            font-size: 0.7rem;
+            font-weight: bold;
+            width: 150px;
+            outline: none;
+            border: none;
+
+        }
+        
+        .search-input:focus {
+            border-color:   #333;
+        }
+        
+        /* Bouton Support */
+        .support-btn {
+            background-color: transparent;
+            color: #333;
+            border: none;
+            padding: 6px 0;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .support-btn img {
+            width: 17px;
+            height: 15px;
+        }
+        
+        .support-btn:hover {
+            color:  #333;
+        }
+        
+        /* Bouton Account avec dropdown */
+        .account-dropdown {
+            position: relative;
+        }
+        
+        .account-btn {
+            background-color:  #333;
+            color: white;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: background-color 0.2s;
+        }
+        
+        .account-btn:hover {
+            background-color:  #333;
+        }
+        
+        .account-dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #fff;
+            min-width: 180px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+            z-index: 1;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #eee;
+        }
+        
+        .account-dropdown:hover .account-dropdown-content {
+            display: block;
+        }
+        
+        .dropdown-link {
+            color: #333;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        
+        .dropdown-link:hover {
+            background-color:  #333;
+            color: white;
+        }
+        
+        .dropdown-link:last-child {
+            border-bottom: none;
+        }

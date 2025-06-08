@@ -1,0 +1,58 @@
+    <nav class="navbar">
+        <!-- Partie gauche (Logo + Menu) -->
+        <div class="left-container">
+            <!-- Logo et nom -->
+            <div class="brand">
+                <div class="brand-name">
+                    <img src="LOGO.png" alt="Icon">
+                </div>
+            </div>
+            
+            <!-- Menu principal -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Wireless</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Internet</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Prepaid</a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Partie droite (Recherche + Utilitaires) -->
+        <div class="right-container">
+            <!-- Barre de recherche -->
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="I'm looking for ...">
+                <img [src]="getIconPath('loop')" alt="Icon">
+            </div>
+            
+            <!-- Bouton Support -->
+             <button class="support-btn">
+                <img [src]="getIconPath('charriot')" alt="Icon">
+            </button>
+            <button class="support-btn">Support</button>
+            
+            
+            
+            <!-- Bouton Account -->
+            <div class="account-dropdown">
+                <button class="account-btn">Account</button>
+                <div class="account-dropdown-content">
+                    <a href="#" class="dropdown-link">Mon profil</a>
+                    <a href="#" class="dropdown-link">Mes commandes</a>
+                    <a href="#" class="dropdown-link">Paramètres</a>
+                    <a href="#" class="dropdown-link">Déconnexion</a>
+                </div>
+            </div>
+        </div>
+    </nav>

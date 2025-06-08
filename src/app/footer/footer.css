@@ -1,0 +1,136 @@
+/* Styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+        }
+        /* banniere du footer */
+        .footer-top-banner {
+            background-color: #009fdb; 
+            width: 100%; padding: 10px 20px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 15px;
+        }
+
+        .att-logo-banner {
+            color: white; 
+            font-weight: bold; 
+            font-size: 20px;
+        }
+
+        .footer-logos {
+            display: flex; 
+            gap: 15px; 
+            align-items: center;
+        }
+
+        .logo-placeholder {
+            width: 30px; 
+            height: 30px; 
+            justify-content: center;
+        }
+        
+        .logo-placeholder img {
+            width: 20px; 
+            height: 20px;
+            margin-top: 5px;
+        }
+
+        /* Footer principal */
+        .att-footer {
+            background-color: #ffffff;
+            color: #333333;
+            padding: 40px 20px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+        
+        .footer-section {
+            margin-bottom: 20px;
+        }
+        
+        .footer-section h3 {
+            color: #00a2e0; /* Bleu AT&T */
+            font-size: 16px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section ul li a {
+            color: #333333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .footer-section ul li a:hover {
+            color: #00a2e0; /* Bleu AT&T au survol */
+            text-decoration: underline;
+        }
+        
+        /* Bas du footer */
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 40px auto 0;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: #666666;
+        }
+        
+        .footer-bottom-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .footer-bottom-links a {
+            color: #666666;
+            text-decoration: none;
+        }
+        
+        .footer-bottom-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            margin-top: 10px;
+        }
+        
+        /* Couleurs spécifiques */
+        .att-blue {
+            color: #00a2e0;
+        }
+        
+        .att-logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: #00a2e0;
+            margin-bottom: 10px;
+        }
